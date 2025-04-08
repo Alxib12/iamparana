@@ -1,0 +1,24 @@
+[
+  {
+    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto%20principal%201.webp",
+    "alt": "Principal IAM"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-Papa-Francisco.webp",
+    "alt": "Papa Francisco",
+    "link": "https://www.vatican.va/content/francesco/es/messages/missions/documents/20250125-giornata-missionaria.html",
+    "buttonText": "Leela acá"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-formaci%C3%B3n.webp",
+    "alt": "Formación",
+    "link": "https://sites.google.com/view/iamparana/formacion/encuformacion",
+    "buttonText": "¡Ya disponible!"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-comunicaci%C3%B3n.webp",
+    "alt": "Logos",
+    "link": "https://sites.google.com/view/iamparana/comunicacion/logos",
+    "buttonText": "¡Descargalo acá!"
+  }
+]

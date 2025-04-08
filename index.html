@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IAM Paraná</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/Alxib12/iamarqparana/logos/logo%20iam%20arq%20parana%20(1).svg" alt="Logo IAM Paraná">
+        <span><strong>IAM Paraná</strong></span>
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="menu">
+          <li class="inicio"><a href="#"><strong>Inicio</strong></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bienvenida">
+    <div class="espaciado-superior"></div>
+    <div class="carousel-container">
+      <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="carousel-slide" id="carousel-slide">
+        <!-- Ítems del carrusel serán insertados dinámicamente con JS -->
+      </div>
+      <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <div class="bienvenida-content">
+      <h1>¡Bienvenidos a la página de la IAM Paraná!</h1>
+      <p>
+        En este año somos <strong>"Misioneros de Esperanza, entre los pueblos"</strong>. Esta página es una herramienta para el animador...
+      </p>
+    </div>
+    <div class="botones-area">
+      <a href="https://sites.google.com/view/iamparana/animacion">Animación</a>
+      <a href="https://sites.google.com/view/iamparana/formacion">Formación</a>
+      <a href="https://sites.google.com/view/iamparana/espiritualidad">Espiritualidad</a>
+      <a href="https://sites.google.com/view/iamparana/construccion">Logística</a>
+      <a href="https://sites.google.com/view/iamparana/comunicacion">Comunicación</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
