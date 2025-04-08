@@ -1,57 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 body {
-  font-family: 'Comfortaa', cursive;
   margin: 0;
-  padding: 0;
-  background-color: #fffaf0;
+  font-family: 'Comfortaa', cursive;
+  background-color: #fff8f0;
   color: #333;
 }
 
 header {
-  background-color: #f9c74f;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  background-color: #ffdab9;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .header-content {
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .logo-container img {
   height: 40px;
-  margin-right: 10px;
-}
-
-.logo-container span {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-}
-
-.menu-toggle {
-  display: none;
-  font-size: 1.5em;
-  background: none;
-  border: none;
 }
 
 nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 20px;
-  padding: 0;
-  margin: 0;
 }
 
 nav ul li a {
@@ -60,11 +46,27 @@ nav ul li a {
   font-weight: bold;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+.bienvenida {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.espaciado-superior {
+  height: 40px;
+}
+
 .carousel-container {
   position: relative;
+  max-width: 900px;
+  margin: 0 auto 40px;
   overflow: hidden;
-  max-width: 100%;
-  margin: 20px auto;
 }
 
 .carousel-slide {
@@ -75,22 +77,24 @@ nav ul li a {
 .carousel-item {
   min-width: 100%;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .carousel-item img {
-  width: 100%;
-  display: block;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.5);
-  color: white;
+  background-color: rgba(255, 218, 185, 0.8);
   border: none;
-  padding: 10px;
+  font-size: 24px;
   cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
   z-index: 1;
 }
 
@@ -102,46 +106,31 @@ nav ul li a {
   right: 10px;
 }
 
-.bienvenida-content {
-  text-align: center;
-  padding: 20px;
-}
-
 .bienvenida-content h1 {
   font-size: 2em;
-  color: #f9844a;
-}
-
-.bienvenida-content p {
-  font-size: 1.2em;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.espaciado-superior {
-  height: 30px;
+  margin-bottom: 10px;
 }
 
 .botones-area {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 15px;
-  padding: 20px;
+  justify-content: center;
 }
 
 .botones-area a {
   text-decoration: none;
-  background-color: #f3722c;
+  background-color: #ffb347;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 .botones-area a:hover {
-  background-color: #f8961e;
+  background-color: #ff9900;
 }
 
 @media (max-width: 768px) {
@@ -150,16 +139,17 @@ nav ul li a {
   }
 
   nav ul {
-    flex-direction: column;
     display: none;
-    width: 100%;
+    flex-direction: column;
+    background-color: #ffdab9;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 8px;
   }
 
   nav ul.show {
     display: flex;
-  }
-
-  .carousel-item {
-    min-width: 100%;
   }
 }
