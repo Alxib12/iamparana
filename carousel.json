@@ -1,12 +1,12 @@
 [
   {
     "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto%20principal%201.webp",
-    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/1.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/2.webp",
     "alt": "Principal IAM"
   },
   {
     "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-Papa-Francisco.webp",
-    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/2.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/1.webp",
     "alt": "Papa Francisco",
     "link": "https://www.vatican.va/content/francesco/es/messages/missions/documents/20250125-giornata-missionaria.html",
     "buttonText": "Leela acá"
