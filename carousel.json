@@ -1,22 +1,26 @@
 [
   {
-    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto%20principal%201.webp",
+    "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto%20principal%201.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/1.webp",
     "alt": "Principal IAM"
   },
   {
-    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-Papa-Francisco.webp",
+    "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-Papa-Francisco.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/2.webp",
     "alt": "Papa Francisco",
     "link": "https://www.vatican.va/content/francesco/es/messages/missions/documents/20250125-giornata-missionaria.html",
     "buttonText": "Leela acá"
   },
   {
-    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-formaci%C3%B3n.webp",
+    "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-formaci%C3%B3n.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/3.webp",
     "alt": "Formación",
     "link": "presentaciones.html",
     "buttonText": "¡Ya disponible!"
   },
   {
-    "image": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-comunicaci%C3%B3n.webp",
+    "imageDesktop": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/Foto-comunicaci%C3%B3n.webp",
+    "imageMobile": "https://raw.githubusercontent.com/Alxib12/iamarqparana/Banner/4.webp",
     "alt": "Logos",
     "link": "https://sites.google.com/view/iamparana/comunicacion/logos",
     "buttonText": "¡Descargalo acá!"
