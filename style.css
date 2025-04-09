@@ -367,4 +367,14 @@ nav ul ul li:last-child a {
   margin-right: auto;
 }
 
+  @media (max-width: 768px) {
+  nav ul {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+
 
