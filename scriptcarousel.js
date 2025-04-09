@@ -21,23 +21,26 @@ function loadCarousel() {
         const div = document.createElement('div');
         div.className = 'carousel-item';
 
-        // Usamos <picture> para responsive images
         const picture = document.createElement('picture');
 
         const sourceMobile = document.createElement('source');
         sourceMobile.media = '(max-width: 768px)';
         sourceMobile.srcset = item.imageMobile;
 
+        const sourceDesktop = document.createElement('source');
+        sourceDesktop.media = '(min-width: 769px)';
+        sourceDesktop.srcset = item.imageDesktop;
+
         const img = document.createElement('img');
-        img.src = item.image;
+        img.src = item.imageDesktop; // fallback
         img.alt = item.alt;
 
         picture.appendChild(sourceMobile);
+        picture.appendChild(sourceDesktop);
         picture.appendChild(img);
 
         div.appendChild(picture);
 
-        // Si hay botón
         if (item.link) {
           const a = document.createElement('a');
           a.href = item.link;
