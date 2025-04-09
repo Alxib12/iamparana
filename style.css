@@ -355,12 +355,15 @@ nav ul ul li:last-child a {
   .subtitulo-seccion {
     font-size: 1.4rem;
   }
-}
 .subtitulo-descriptivo {
   text-align: center;
   font-size: 1.1rem;
   color: #7a4c2b;
   margin-top: -10px;
   margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
