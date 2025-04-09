@@ -356,3 +356,11 @@ nav ul ul li:last-child a {
     font-size: 1.4rem;
   }
 }
+.subtitulo-descriptivo {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7a4c2b;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
