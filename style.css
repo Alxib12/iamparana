@@ -303,3 +303,56 @@ nav ul ul li:last-child a {
     bottom: 10%;
   }
 }
+.titulo-principal {
+  text-align: center;
+  margin-top: 30px;
+  color: #622d0d;
+}
+
+.seccion {
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.subtitulo-seccion {
+  border-left: 8px solid #622d0d;
+  padding-left: 15px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #4a2c14;
+}
+
+.pdf-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.pdf-lista a {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #fff7f0;
+  border: 2px solid #e1aa88;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #622d0d;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.pdf-lista a:hover {
+  background-color: #e1aa88;
+  color: white;
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .pdf-lista a {
+    flex: 1 1 100%;
+  }
+
+  .subtitulo-seccion {
+    font-size: 1.4rem;
+  }
+}
