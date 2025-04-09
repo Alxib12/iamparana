@@ -20,11 +20,24 @@ function loadCarousel() {
       data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'carousel-item';
+
+        // Usamos <picture> para responsive images
+        const picture = document.createElement('picture');
+
+        const sourceMobile = document.createElement('source');
+        sourceMobile.media = '(max-width: 768px)';
+        sourceMobile.srcset = item.imageMobile;
+
         const img = document.createElement('img');
         img.src = item.image;
         img.alt = item.alt;
-        div.appendChild(img);
 
+        picture.appendChild(sourceMobile);
+        picture.appendChild(img);
+
+        div.appendChild(picture);
+
+        // Si hay botón
         if (item.link) {
           const a = document.createElement('a');
           a.href = item.link;
