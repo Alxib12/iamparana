@@ -384,4 +384,9 @@ nav ul ul li:last-child a {
   border: none;
   color: white;
   cursor: pointer;
+  }
+  .carousel-container,
+.carousel-slide img {
+  border-radius: 0 !important;
 }
+
