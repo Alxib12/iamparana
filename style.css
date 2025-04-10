@@ -157,7 +157,7 @@ nav ul ul li:last-child a {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 16px;
+  border-radius: 0px;
 }
 
 .carousel-button {
