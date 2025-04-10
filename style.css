@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@400;600;700&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat', sans-serif;
   background-color: #fefaf7;
 }
 
@@ -194,6 +194,7 @@ nav ul ul li:last-child a {
   opacity: 0.95;
   font-size: 1.1rem;
   transition: transform 0.2s ease-in-out;
+  font-family: 'Comfortaa', cursive;
 }
 
 .carousel-item .overlay-button:hover {
@@ -240,6 +241,7 @@ nav ul ul li:last-child a {
   font-weight: bold;
   transition: transform 0.3s, background-color 0.3s;
   color: #622d0d;
+  font-family: 'Comfortaa', cursive;
 }
 
 .botones-area a:hover {
@@ -303,6 +305,7 @@ nav ul ul li:last-child a {
     bottom: 10%;
   }
 }
+
 .titulo-principal {
   text-align: center;
   margin-top: 30px;
@@ -355,19 +358,18 @@ nav ul ul li:last-child a {
   .subtitulo-seccion {
     font-size: 1.4rem;
   }
-  
-.subtitulo-descriptivo {
-  text-align: center;
-  font-size: 1.1rem;
-  color: #7a4c2b;
-  margin-top: -10px;
-  margin-bottom: 30px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-  @media (max-width: 768px) {
+  .subtitulo-descriptivo {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #7a4c2b;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   nav ul {
     display: flex !important;
     flex-direction: column;
@@ -375,6 +377,3 @@ nav ul ul li:last-child a {
     width: 100%;
   }
 }
-
-
-
