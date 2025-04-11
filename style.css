@@ -473,13 +473,14 @@ footer img {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
+
 .acordeon {
   display: grid;
   gap: 1rem;
 }
 
 .acordeon details {
-  background-color: #fbe089; /* tono cálido parecido a botones de descarga */
+  background-color: #fbe089;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   padding: 1rem;
@@ -487,22 +488,51 @@ footer img {
   overflow: hidden;
 }
 
-/* Eliminar el ícono del summary (triángulo) */
 .acordeon summary {
   list-style: none;
-}
-
-.acordeon summary::-webkit-details-marker {
-  display: none;
-}
-
-.acordeon summary {
   font-weight: bold;
   font-size: 1rem;
   color: #444;
   cursor: pointer;
 }
 
-.acordeon p {
-  margin-top: 0
+.acordeon summary::-webkit-details-marker {
+  display: none;
+}
 
+.acordeon p {
+  margin-top: 0.8rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .acordeon {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lista-guiones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.enlace-guion {
+  padding: 0.6rem 1rem;
+  background-color: #fbe089;
+  color: #333;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.enlace-guion:hover {
+  background-color: #f5d768;
+}
