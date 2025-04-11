@@ -474,11 +474,13 @@ footer img {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
+
 .acordeon {
   display: grid;
   gap: 1rem;
 }
 
+/* 2 columnas en escritorio */
 @media (min-width: 768px) {
   .acordeon {
     grid-template-columns: 1fr 1fr;
@@ -497,13 +499,14 @@ footer img {
   overflow: hidden;
 }
 
+
 .acordeon summary {
   list-style: none;
   font-weight: bold;
   font-size: 1rem;
-  color: #444;
+  color: #333;
   cursor: pointer;
-  background-color: #fbe089;
+  background-color: #fce6a0;
   padding: 1rem;
   position: relative;
   transition: background-color 0.3s ease;
@@ -526,7 +529,7 @@ footer img {
 }
 
 .acordeon summary:hover {
-  background-color: #f5d768;
+  background-color: #fbd97b;
 }
 
 .acordeon summary::-webkit-details-marker {
@@ -534,7 +537,7 @@ footer img {
 }
 
 .acordeon p {
-  background-color: #fffbe6;
+  background-color: #fffbe6; 
   margin: 0;
   padding: 1rem 1.5rem;
   line-height: 1.5;
@@ -542,7 +545,7 @@ footer img {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: center; 
 }
 
 .lista-guiones {
