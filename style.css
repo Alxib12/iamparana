@@ -357,8 +357,10 @@ footer img {
 
 @media (max-width: 768px) {
   .header-content {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
   nav ul {
