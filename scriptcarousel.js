@@ -52,7 +52,34 @@ function loadCarousel() {
 
         container.appendChild(div);
       });
+
+      // Agregar soporte táctil una vez que las diapositivas están cargadas
+      setupTouchEvents();
     });
+}
+
+function setupTouchEvents() {
+  const slide = document.getElementById('carousel-slide');
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  slide.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, false);
+
+  slide.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipeGesture();
+  }, false);
+
+  function handleSwipeGesture() {
+    if (touchEndX < touchStartX - 50) {
+      moveSlide(1); // Desliza a la izquierda
+    }
+    if (touchEndX > touchStartX + 50) {
+      moveSlide(-1); // Desliza a la derecha
+    }
+  }
 }
 
 document.addEventListener('DOMContentLoaded', loadCarousel);
