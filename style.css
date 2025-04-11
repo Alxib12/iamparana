@@ -457,7 +457,7 @@ footer img {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background-color: #ffc107; /* color cálido */
+  background-color: #fdd86c; /* color cálido */
   color: #222;
   font-weight: 600;
   padding: 0.6em 1.2em;
@@ -469,7 +469,7 @@ footer img {
 }
 
 .boton-descarga:hover {
-  background-color: #ffb300;
+  background-color: #fcca3f;
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
