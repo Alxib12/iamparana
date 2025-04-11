@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dibujos - IAM Paraná</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <h1 class="titulo-principal">Dibujos para animar</h1>
+    <p class="subtitulo-descriptivo">
+      En esta sección vas a encontrar dibujos para usar en tus encuentros, publicaciones o ideas creativas. Están divididos en distintas categorías, y podés descargarlos libremente. Al presionar en el botón accedes a un montón de dibujos de ese estilo.
+    </p>
+
+    <div class="galeria-logos">
+      <div class="logo-item">
+        <img src="assets/cris camargo.png" alt="Cris Camargo" />
+        <a href="https://drive.google.com/drive/folders/1yzOjbr51Xu--V3C3Vfj2F10n_8Y8mAu-" target="_blank" class="boton-area">🔗 Ver Cris</a>
+      </div>
+
+      <div class="logo-item">
+        <img src="assets/Fano.jpg" alt="Fano" />
+        <a href="https://drive.google.com/drive/folders/1u-0qXHkreinOLw63rgi4jVaqeGGZ4mA2" target="_blank" class="boton-area">🔗 Ver Fano</a>
+      </div>
+
+      <div class="logo-item">
+        <img src="assets/para colorear.jpg" alt="Para colorear" />
+        <a href="https://drive.google.com/drive/folders/1p2etdR43EDnZqm_jkLefMc60jbANlgSG" target="_blank" class="boton-area">🔗 Ver para colorear</a>
+      </div>
+    </div>
+
+    <section class="copyright-aviso">
+      <p>
+        © IAM Paraná. Todos los derechos reservados. Las imágenes, logotipos y dibujos expuestos en esta página son propiedad intelectual de sus respectivos autores. Como animadores podemos utilizarlos para realizar actividades en los encuentros, invitaciones o subirlos a redes sociales, pero no sería bueno que los utilicemos de manera comercial, o con fines de lucro. A Diosito no le gusta que robes.
+      </p>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="componentsbyf.js"></script>
+</body>
+</html>
