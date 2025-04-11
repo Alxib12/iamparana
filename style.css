@@ -509,4 +509,25 @@ footer img {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
+.galeria-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+.galeria-scroll img {
+  width: 250px;
+  height: auto;
+  scroll-snap-align: start;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+.instruccion-galeria {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
 
