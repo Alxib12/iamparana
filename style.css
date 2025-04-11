@@ -474,44 +474,61 @@ footer img {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
+/* Contenedor de acordeón para oraciones */
 .acordeon {
   display: grid;
   gap: 1rem;
 }
 
 .acordeon details {
-  background-color: #fbe089;
+  background-color: #fff7dc; /* Fondo base */
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  padding: 1rem;
-  transition: all 0.3s ease;
+  padding: 0;
   overflow: hidden;
 }
 
+/* Encabezado de cada oración (summary) */
 .acordeon summary {
   list-style: none;
   font-weight: bold;
   font-size: 1rem;
   color: #444;
   cursor: pointer;
+  background-color: #fbe089; /* Color más claro inicial */
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.acordeon summary:hover {
+  background-color: #f5d768; /* Color más oscuro al pasar el mouse */
 }
 
 .acordeon summary::-webkit-details-marker {
   display: none;
 }
 
+/* Contenido de la oración */
 .acordeon p {
-  margin-top: 0.8rem;
+  background-color: #fffbe6; /* Más claro que el summary */
+  margin: 0;
+  padding: 1rem 1.5rem;
   line-height: 1.5;
   color: #333;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }
 
+/* Mostrar 2 oraciones por línea en escritorio */
 @media (min-width: 768px) {
   .acordeon {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+/* Estilo de los botones de guiones */
 .lista-guiones {
   display: flex;
   flex-wrap: wrap;
@@ -529,8 +546,7 @@ footer img {
   font-weight: bold;
   text-align: center;
   transition: background-color 0.3s ease;
-  width: fit-content;
-  white-space: nowrap;
+  width: 200px; /* Ancho fijo */
 }
 
 .enlace-guion:hover {
