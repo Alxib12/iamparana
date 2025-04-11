@@ -420,3 +420,23 @@ footer img {
   margin-top: 2rem;
   border-top: 1px solid #ddd;
 }
+
+.galeria-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.logo-item {
+  text-align: center;
+  max-width: 200px;
+}
+
+.logo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
