@@ -410,3 +410,13 @@ footer img {
     font-size: 1.4rem;
   }
 }
+
+.copyright-aviso {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  color: #555;
+  background-color: #f9f9f9;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+}
