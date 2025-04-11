@@ -361,12 +361,26 @@ footer img {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+
+  }
+  .logo-container {
+    flex: 1;
+    min-width: 0;
+  }
+
+  nav {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    justify-content: flex-end;
   }
 
   nav ul {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
     gap: 10px;
+    width: auto;
+    display: flex;
+
   }
 
   .bienvenida-content h1 {
