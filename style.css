@@ -457,7 +457,7 @@ footer img {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background-color: #fdd86c; /* color cálido */
+  background-color: #fdd86c;
   color: #222;
   font-weight: 600;
   padding: 0.6em 1.2em;
@@ -474,43 +474,67 @@ footer img {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-/* Contenedor de acordeón para oraciones */
 .acordeon {
   display: grid;
   gap: 1rem;
 }
 
+@media (min-width: 768px) {
+  .acordeon {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .acordeon details[open] {
+    grid-column: span 2;
+  }
+}
+
 .acordeon details {
-  background-color: #fff7dc; /* Fondo base */
+  background-color: #fff7dc;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   padding: 0;
   overflow: hidden;
 }
 
-/* Encabezado de cada oración (summary) */
 .acordeon summary {
   list-style: none;
   font-weight: bold;
   font-size: 1rem;
   color: #444;
   cursor: pointer;
-  background-color: #fbe089; /* Color más claro inicial */
+  background-color: #fbe089;
   padding: 1rem;
+  position: relative;
   transition: background-color 0.3s ease;
 }
 
+.acordeon summary::after {
+  content: "+";
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease;
+}
+
+.acordeon details[open] summary::after {
+  content: "";
+  opacity: 0;
+}
+
 .acordeon summary:hover {
-  background-color: #f5d768; /* Color más oscuro al pasar el mouse */
+  background-color: #f5d768;
 }
 
 .acordeon summary::-webkit-details-marker {
   display: none;
 }
 
-/* Contenido de la oración */
 .acordeon p {
-  background-color: #fffbe6; /* Más claro que el summary */
+  background-color: #fffbe6;
   margin: 0;
   padding: 1rem 1.5rem;
   line-height: 1.5;
@@ -521,14 +545,6 @@ footer img {
   text-align: justify;
 }
 
-/* Mostrar 2 oraciones por línea en escritorio */
-@media (min-width: 768px) {
-  .acordeon {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Estilo de los botones de guiones */
 .lista-guiones {
   display: flex;
   flex-wrap: wrap;
@@ -546,7 +562,7 @@ footer img {
   font-weight: bold;
   text-align: center;
   transition: background-color 0.3s ease;
-  width: 200px; /* Ancho fijo */
+  width: 200px;
 }
 
 .enlace-guion:hover {
