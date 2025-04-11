@@ -451,3 +451,26 @@ footer img {
   height: auto;
   margin-bottom: 1rem;
 }
+
+.boton-descarga {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #ffc107; /* color cálido */
+  color: #222;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 0.75em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.boton-descarga:hover {
+  background-color: #ffb300;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
