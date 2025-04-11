@@ -473,35 +473,59 @@ footer img {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
-.contenedor-oraciones {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin: 1rem 0;
+.acordeon {
+  display: grid;
+  gap: 1rem;
 }
 
-.oracion-card {
+.acordeon details {
   background-color: #fff9e6;
-  border-left: 6px solid #f4c430;
-  padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  padding: 1rem;
+  transition: all 0.3s ease;
 }
 
-.subtitulo-seccion {
-  margin-top: 2rem;
-  font-size: 1.4rem;
+.acordeon summary {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.acordeon p {
+  margin-top: 0.8rem;
+  line-height: 1.5;
   color: #333;
 }
 
+@media (min-width: 768px) {
+  .acordeon {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Estilos para los enlaces de guiones */
 .lista-guiones {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 0;
+  gap: 0.8rem;
+  margin-top: 1rem;
 }
 
-.lista-guiones .boton-area {
-  max-width: 300px;
+.enlace-guion {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background-color: #fbe089;
+  color: #333;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
   text-align: center;
+  transition: background-color 0.3s ease;
 }
+
+.enlace-guion:hover {
+  background-color: #f5d768;
+}
+
