@@ -17,6 +17,7 @@ function loadCarousel() {
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('carousel-slide');
+      setInterval(() => moveSlide(1), 15000);
       data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'carousel-item';
@@ -32,7 +33,7 @@ function loadCarousel() {
         sourceDesktop.srcset = item.imageDesktop;
 
         const img = document.createElement('img');
-        img.src = item.imageDesktop; // fallback
+        img.src = item.imageDesktop;
         img.alt = item.alt;
 
         picture.appendChild(sourceMobile);
@@ -54,5 +55,4 @@ function loadCarousel() {
     });
 }
 
-setInterval(() => moveSlide(1), 15000);
 document.addEventListener('DOMContentLoaded', loadCarousel);
