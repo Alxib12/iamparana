@@ -1,5 +1,5 @@
 ---
-fecha: "2025-06-19"
-fecha_fin: "2025-06-19"
+fecha: "2025-06-21"
+fecha_fin: "2025-06-21"
 evento: "Corpus Christi"
 ---
