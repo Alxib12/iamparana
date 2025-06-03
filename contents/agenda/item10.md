@@ -1,5 +1,5 @@
 ---
-fecha: 2025-06-08T13:08:45.371Z
-fecha_fin: ""
+fecha: "2025-06-08"
+fecha_fin: "2025-06-08"
 evento: Pentecostés
 ---
