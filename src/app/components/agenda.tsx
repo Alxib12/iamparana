@@ -21,8 +21,13 @@ export default function Agenda() {
         const limite = new Date();
         limite.setMonth(hoy.getMonth() + 2);
 
-        const visibles = data.filter((e) => new Date(e.fecha) <= limite);
-        const futuros = data.filter((e) => new Date(e.fecha) > limite);
+        const parseLocalDate = (f: string) => {
+          const [y, m, d] = f.split("-").map(Number);
+          return new Date(y, m - 1, d);
+        };
+
+        const visibles = data.filter((e) => parseLocalDate(e.fecha) <= limite);
+        const futuros = data.filter((e) => parseLocalDate(e.fecha) > limite);
 
         setVisibles(visibles);
         setFuturos(futuros);
@@ -30,8 +35,13 @@ export default function Agenda() {
       .catch(console.error);
   }, []);
 
-  const formatFecha = (f: string) =>
-    new Date(f).toLocaleDateString("es-AR", { day: "2-digit", month: "short" });
+  const formatFecha = (f: string) => {
+    const [y, m, d] = f.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString("es-AR", {
+      day: "2-digit",
+      month: "short",
+    });
+  };
 
   const renderEvento = (item: Evento, i: number) => {
     const inicio = formatFecha(item.fecha);
@@ -49,9 +59,10 @@ export default function Agenda() {
   return (
     <>
       <ul id="agenda-list">
-        {(mostrarFuturos ? [...eventosVisibles, ...eventosFuturos] : eventosVisibles).map(
-          renderEvento
-        )}
+        {(mostrarFuturos
+          ? [...eventosVisibles, ...eventosFuturos]
+          : eventosVisibles
+        ).map(renderEvento)}
       </ul>
       {eventosFuturos.length > 0 && (
         <div className="agenda-buttons">
