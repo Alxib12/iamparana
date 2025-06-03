@@ -1,5 +1,5 @@
 ---
-title: Sean amigos de Jesús, Campamento de Adolescentes 2025
+title: Sean amigos de Jesus, Campamento de Adolescentes 2025
 date: 2025-06-03T11:03:36.645Z
 cat: ARQUIDIÓCESIS
 bajada: "Se realizó en la localidad del Espinillo el Campamento Arquidiocesano
