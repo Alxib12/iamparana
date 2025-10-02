@@ -33,25 +33,35 @@ El Rosario Misionero sigue la estructura tradicional del rosario, pero con una i
 
 **Estructura del Rosario Misionero:**
 
-1. Señal de la Cruz: Comienza con la señal de la Santa Cruz.
-2. Oración inicial: Reza un Padre Nuestro y tres Avemarías por el propio país.
-3. Misterios: Reza los cinco misterios correspondientes al día de la semana, ofreciendo cada uno por un continente específico.
-4. Oración final: Concluye con una oración por la misión universal y una Salve a la Virgen María.
+Señal de la Cruz: Comienza con la señal de la Santa Cruz.
+
+Oración inicial: Reza un Padre Nuestro y tres Avemarías por el propio país.
+
+Misterios: Reza los cinco misterios correspondientes al día de la semana, ofreciendo cada uno por un continente específico.
+
+Oración final: Concluye con una oración por la misión universal y una Salve a la Virgen María.
 
 **Colores y continentes:**
 
-* Verde: África
-* Rojo: América
-* Blanco: Europa
-* Azul: Oceanía
-* Amarillo: Asia
+Verde: África
+
+Rojo: América
+
+Blanco: Europa
+
+Azul: Oceanía
+
+Amarillo: Asia
 
 **Misterios y continentes:**
 
-* Lunes y Sábados (Misterios Gozosos): Primer Misterio: Anunciación del Ángel a María y Encarnación del Hijo de Dios – África. | Segundo Misterio: Visitación de María a su prima Isabel – América | Tercer Misterio: Nacimiento de Jesús en Belén – Europa | Cuarto Misterio: Presentación de Jesús en el Templo – Oceanía | Quinto Misterio: Niño Jesús en el Templo – Asia.
-* Martes y Viernes (Misterios Dolorosos): Primer Misterio: Agonía de Jesús en el Huerto – África | Segundo Misterio: Flagelación de Jesús – América | Tercer Misterio: Coronación de espinas – Europa | Cuarto Misterio: Jesús con la cruz a cuestas – Oceanía | Quinto Misterio: Crucifixión y muerte de Jesús – Asia.
-* Miércoles y Domingos (Misterios Gloriosos): Primer Misterio: Resurrección de Jesús – África | Segundo Misterio: Ascensión de Jesús al Cielo – América | Tercer Misterio: Venida del Espíritu Santo – Europa | Cuarto Misterio: Asunción de la Virgen María – Oceanía | Quinto Misterio: Coronación de la Virgen María – Asia
-* Jueves (Misterios Luminosos): Primer Misterio: Bautismo de Jesús en el Jordán – África | Segundo Misterio: Bodas de Caná – América | Tercer Misterio: Anuncio del Reino de Dios – Europa | Cuarto Misterio: Transfiguración de Jesús – Oceanía | Quinto Misterio: Institución de la Eucaristía – Asia
+Lunes y Sábados (Misterios Gozosos): Primer Misterio: Anunciación del Ángel a María y Encarnación del Hijo de Dios – África. | Segundo Misterio: Visitación de María a su prima Isabel – América | Tercer Misterio: Nacimiento de Jesús en Belén – Europa | Cuarto Misterio: Presentación de Jesús en el Templo – Oceanía | Quinto Misterio: Niño Jesús perdido y hallado en el Templo – Asia.
+
+Martes y Viernes (Misterios Dolorosos): Primer Misterio: Agonía de Jesús en el Huerto – África | Segundo Misterio: Flagelación de Jesús – América | Tercer Misterio: Coronación de espinas – Europa | Cuarto Misterio: Jesús con la cruz a cuestas – Oceanía | Quinto Misterio: Crucifixión y muerte de Jesús – Asia.
+
+Miércoles y Domingos (Misterios Gloriosos): Primer Misterio: Resurrección de Jesús – África | Segundo Misterio: Ascensión de Jesús al Cielo – América | Tercer Misterio: Venida del Espíritu Santo – Europa | Cuarto Misterio: Asunción de la Virgen María – Oceanía | Quinto Misterio: Coronación de la Virgen María – Asia
+
+Jueves (Misterios Luminosos): Primer Misterio: Bautismo de Jesús en el Jordán – África | Segundo Misterio: Bodas de Caná – América | Tercer Misterio: Anuncio del Reino de Dios – Europa | Cuarto Misterio: Transfiguración de Jesús – Oceanía | Quinto Misterio: Institución de la Eucaristía – Asia
 
 **Oración final:**
 
